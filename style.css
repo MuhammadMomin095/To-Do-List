@@ -1,0 +1,101 @@
+/* Body styling for dark theme */
+body {
+    background-color: #1c1c1c; /* Dark background for the body */
+    color: #e0e0e0; /* Light gray text for readability */
+    font-family: 'Arial', sans-serif; /* Font style */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* No margin */
+}
+
+/* Main container styling */
+.container {
+    background-color: #2c2c2c; /* Dark gray background for the container */
+    padding: 20px; /* Padding for container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 25px rgba(0, 123, 255, 0.5); /* Soft blue shadow for depth */
+    width: 300px; /* Fixed width */
+    text-align: center; /* Center text */
+}
+
+/* Heading styling */
+h1 {
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Input container styling */
+.input-container {
+    display: flex; /* Flex layout for input */
+    justify-content: space-between; /* Space between input and button */
+    margin-bottom: 20px; /* Margin below input container */
+}
+
+/* Input field styling */
+input {
+    padding: 10px; /* Padding for input */
+    width: 70%; /* Fixed width */
+    background-color: #3c3c3c; /* Darker background for input */
+    color: #ffffff; /* White text */
+    border: 2px solid #007bff; /* Blue border for visibility */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input focus effect */
+input:focus {
+    outline: none; /* No outline */
+    border-color: #66b3ff; /* Lighter blue border color on focus */
+}
+
+/* Button styling */
+button {
+    padding: 10px; /* Padding for button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* List styling */
+ul {
+    list-style-type: none; /* No list style */
+    padding: 0; /* No padding */
+}
+
+/* List item styling */
+li {
+    background-color: #3c3c3c; /* Dark background for list items */
+    color: #ffffff; /* White text */
+    padding: 10px; /* Padding for list items */
+    margin-bottom: 10px; /* Space between list items */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flex layout for list item */
+    justify-content: space-between; /* Space between content */
+    box-shadow: 0px 0px 15px rgba(0, 123, 255, 0.3); /* Soft blue shadow for list items */
+}
+
+/* Delete button styling */
+.delete-btn {
+    background-color: #ff4d4d; /* Red background for delete button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Padding for delete button */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Delete button hover effect */
+.delete-btn:hover {
+    background-color: #ff3333; /* Darker red on hover */
+}
